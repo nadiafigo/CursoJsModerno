@@ -12,6 +12,8 @@ function saludar( nombre ) {
 const retornoDeSaludar = saludar('Fernando', 40, true, 'Costa Rica');
 console.log(retornoDeSaludar);
 
+
+
 // definición de FUNCIONES ANONIMAS:
 const saludar2 = function ( nombre ) {
     console.log('Hola ' + nombre);
