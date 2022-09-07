@@ -36,9 +36,7 @@ const diaLetras = {
     6: 'Sábado',
 }
 
-
-
 //Solución NADIA
-// diaLetras = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
+//diaLetras = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
 
 console.log(diaLetras[dia] || 'Número de día no válido');

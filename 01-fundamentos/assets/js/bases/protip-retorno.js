@@ -35,7 +35,7 @@ const tony = {
 //     console.log(personaje.trajes);
 // }
 
-
+// BUENA PRÁCTICA PARA LA DESESTRUCTURACIÓN DE ARGUMENTOS
 const imprimePropiedades = ({nombre, codeName, vivo, edad = 15, trajes}) => {
     console.log({nombre});
     console.log({codeName});
