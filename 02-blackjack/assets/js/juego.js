@@ -1,9 +1,10 @@
-/** 
- * C = Clubs (Tréboles)
- * D = Diamonds (Diamantes)
- * H = Hearts (Corazones)
- * S = Swords (Espadas)
- */
+(() => {
+    'use strict'
+    const personajes = ['Ana', 'Mercy', 'Mei'];
+    console.log(personajes);
+}) ();
+
+
 
 let deck = [];
 const tipos = ['C', 'D', 'H', 'S'];
@@ -34,7 +35,7 @@ const crearDeck = () => {
         }
     }
     deck = _.shuffle(deck);
-    console.log(deck);
+    // console.log(deck);
     return deck;
 }
 
@@ -112,13 +113,13 @@ const turnoComputadora = (puntosMinimos) => {
         if(puntosComputadora === puntosMinimos) {
             alert('Nadie gana :(');
         } else if( puntosMinimos > 21){
-            alert('Computadora gana');
+            alert('PERDISTE :(');
         } else if(puntosComputadora > 21){
-            alert('Jugador gana');
+            alert('GANASTE! :D');
         } else {
-            alert('Computadora gana')
+            alert('PERDISTE :(')
         }
-    }, 10);
+    }, 50);
 }
 
 
